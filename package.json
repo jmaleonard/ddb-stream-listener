@@ -1,5 +1,5 @@
 {
-  "name": "ddb-streamlistner",
+  "name": "ddb-stream-listener",
   "version": "0.0.1",
   "description": "Attach a listener to a ddb table stream using custom event",
   "main": "index.js",
