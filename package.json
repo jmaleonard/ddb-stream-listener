@@ -1,13 +1,14 @@
 {
   "name": "ddb-stream-listener",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Attach a listener to a ddb table stream using custom event",
   "main": "index.js",
   "scripts": {
     "test": "none"
   },
   "keywords": [
-    "dynamodb", "dynamodb-streams"
+    "dynamodb",
+    "dynamodb-streams"
   ],
   "author": "Jared Leonard (https://github.com/jmaleonard)",
   "maintainers": [
