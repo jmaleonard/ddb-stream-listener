@@ -1,0 +1,23 @@
+{
+  "name": "ddb-streamlistner",
+  "version": "0.0.1",
+  "description": "Attach a listener to a ddb table stream using custom event",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "keywords": [
+    "dynamodb", "dynamodb-streams"
+  ],
+  "author": "Jared Leonard (https://github.com/jmaleonard)",
+  "maintainers": [
+    "Jared Leonard (https://github.com/jmaleonard)"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.422.0",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}
