@@ -10,9 +10,9 @@ async@^2.6.2:
     lodash "^4.17.11"
 
 aws-sdk@^2.422.0:
-  version "2.422.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.422.0.tgz#d875ca4098ced6f47d466f4c7addf8a79332651f"
-  integrity sha512-t/hUQcRVhbw3EPS84d7YqwIAMSXHT5V/s6m0ivgLjIXnzRng0qRD1KGTkoLkXnY+X/o/NdvVIIfLfO4VF8xqMw==
+  version "2.461.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.461.0.tgz#7c56162a28b7c143480183de1070e0cfe0971e11"
+  integrity sha512-nqRqlOaM92P6BTx/huq8FuowWNPiRRcpEKHvAQ2XTWTQUADx9HIP9KtbEzLpauxE4Er2reM0UYz9Kbtyke/3EQ==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
