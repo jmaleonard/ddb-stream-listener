@@ -1,4 +1,4 @@
-workflow "Build, Test, and Publish" {
+workflow "Build and Publish" {
   on = "push"
   resolves = ["Publish"]
 }
@@ -10,7 +10,6 @@ action "Build" {
 
 # Filter for master branch
 action "Master" {
-  needs = "Test"
   uses = "actions/bin/filter@master"
   args = "branch master"
 }
