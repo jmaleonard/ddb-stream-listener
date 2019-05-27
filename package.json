@@ -4,8 +4,7 @@
   "description": "Attach a listener to a ddb table stream using custom event",
   "main": "index.js",
   "scripts": {
-    "test": "none",
-    "publish-new-version": "npm version patch && npm publish"
+    "test": "none"
   },
   "keywords": [
     "dynamodb",
