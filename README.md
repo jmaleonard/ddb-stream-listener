@@ -25,9 +25,9 @@ module.exports = Event;
 
 ```
 
-This assumes that you have created a table named `Events` with with streams enabled. 
+This assumes that you have created a table named `Events` with with streams enabled.
 
-To create an event you declare an eventType eg: 
+To create an event you declare an eventType eg:
 
 ```javascript
 const EVENT_TYPES = {
@@ -51,7 +51,7 @@ await Event.create(uuid.v1(), EXAMPLE_EVENT, {
 ```
 
 To pick up events written to our `Events` table we need to create a `lambda function (AWS)` and attach it to the event stream of the `Events Table`
-The following syntax is used with the ![Serverless Framework](https://serverless.com/framework/docs/providers/aws/events/streams/)
+The following syntax is used with the [Serverless Framework](https://serverless.com/framework/docs/providers/aws/events/streams/)
 
 ```yml
   onEvent:
