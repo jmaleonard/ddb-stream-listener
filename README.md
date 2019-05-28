@@ -1,4 +1,7 @@
-# ddb-stream-listener
+# ddb-stream-listener  [![npm version](https://badge.fury.io/js/ddb-stream-listener.svg)](https://badge.fury.io/js/ddb-stream-listener)
+
+[![NPM](https://nodei.co/npm/ddb-stream-listener.png)](https://nodei.co/npm/ddb-stream-listener/)
+
 This library is used to attach lambda functions to your dynamoDB streams.
 
 It is used to create event types and attach custom handlers to them.
